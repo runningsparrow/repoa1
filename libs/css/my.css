@@ -1,0 +1,37 @@
+/**
+使 div 居中
+**/
+
+.col-center-block {
+     float: none;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 30px;
+     border: 1px solid lightgrey;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+
+
+
+.carousel-control.right, .carousel-control.left{
+
+     background-image: none;
+
+}
+
+
+
+/*去掉carousel div最外层外边距*/
+#carouselwrap{
+     padding:0;
+}
+
+/*去掉carousel  div里面一层外边距*/
+#carousel1{
+     padding:0;
+}

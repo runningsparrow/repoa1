@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdh=device-width, initial-scale=1.0">
+    <title>对话框</title>
+    <link href="./libs/plugins/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link href="./libs/plugins/code-prettify-master/distrib/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="./libs/plugins/bootstrap-vertical-tabs-master/bootstrap.vertical-tabs.css" rel="stylesheet">
+    <link href="./libs/css/my.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="./libs/plugins/html5shiv-master/dist/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">对话框<small> 对话框 </small></h1>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login">开始演示模态框</button>
+    <div class="modal fade" id="login">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">用户登录</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal" role="form">
+                <div class="form-group container-fluid">
+                    <label class="control-label">用户名</label>
+                    <div class="">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group container-fluid">
+                    <lable class="control-label">密码</lable>
+                    <div class="">
+                        <input type="password" class="form-control">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">登录</button>
+        </div>
+    </div>
+    </div><!--modal dialog-->
+    </div><!--modal-->
+
+</div>
+<script src="./libs/plugins/jquery/3.3.1/jquery-3.3.1.js"></script>
+<script src="./libs/plugins/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="./libs/plugins/code-prettify-master/distrib/google-code-prettify/prettify.js"></script>
+</body>
+</html>
